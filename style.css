@@ -1,0 +1,224 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color:#16A29A;
+}
+
+.robots {
+	background-color: #9e9394;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head { 
+	background-color: #B2FFFF;
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	padding-top: 10px;
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	display:flex;
+	/* #0ACBEE;*/
+	
+}
+
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+	margin: 0 auto;
+} 
+
+.button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.top_button, .middle_button, .bottom_button { 
+	margin: 10px;
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color:#507085; 
+} 
+
+.top_button {
+background-color: #FEF250;
+}
+
+.top_button:hover {
+		width: 30px;
+		transition: 1s ease-in-out;
+}
+
+
+.middle_button {
+background-color:	#775496;
+}
+
+.middle_button:hover {
+	width: 30px;
+	transition: 1s ease-in-out;
+}
+
+
+.bottom_button {
+	background-color: #CCFF99;
+}
+
+.bottom_button:hover {
+	width: 30px;
+	transition: 1s ease-in-out;
+}
+
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+	background-color: #0ACBEE; 
+} 
+
+.left_arm:hover {
+	-webkit-transform: rotate(160deg);
+    -moz-transform: rotate(160deg);
+    -o-transform: rotate(160deg);
+    -ms-transform: rotate(160deg);
+	transform: rotate(160deg);
+	background-color: #FF6347;
+}
+
+.right_arm { 
+	margin-left: 10px; 
+	background-color: #0ACBEE;
+} 
+
+.right_arm:hover {
+	-webkit-transform: rotate(-160deg);
+    -moz-transform: rotate(-160deg);
+    -o-transform: rotate(-160deg);
+    -ms-transform: rotate(-160deg);
+	transform: rotate(-160deg);
+	background-color: #FF6347; 
+}
+
+.torso { 
+	z-index: 1; 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	background-color:#1C4C56;/* #B2FFFF;*/ 
+} 
+
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display:flex;
+
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+	background-color: #FFB96D;
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+	transform: rotate(20deg);
+	background-color:#333366;
+}
+
+.right_leg { 
+	margin-left: 30px; 
+	background-color: #FFB96D;
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	background-color:#333366;
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: /*#0ACBEE;*/ #333366; 
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+	background-color: #333366;
+} 
+.left_eye:hover {
+	-webkit-transform: rotate(-160deg);
+    -moz-transform: rotate(-160deg);
+    -o-transform: rotate(-160deg);
+    -ms-transform: rotate(-160deg);
+	transform: rotate(-160deg);
+	background-color: white; 
+	border-radius: 75%;
+}
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+	background-color: #333366;
+}
+
+.right_eye:hover {
+	-webkit-transform: rotate(-160deg);
+    -moz-transform: rotate(-160deg);
+    -o-transform: rotate(-160deg);
+    -ms-transform: rotate(-160deg);
+	transform: rotate(-160deg);
+	background-color: white; 
+	border-radius: 75%;
+}
+
+
+
